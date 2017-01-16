@@ -15,7 +15,7 @@ Receipt to json relies on OpenCV2, tesseract-ocr and jsoncpp. In case you use GN
 dependencies via the package management. 
 
 ```
-# apt-get isntall tesseract-ocr-all libjsoncpp-dev libopencv-dev opencv-data
+# apt-get install tesseract-ocr-dev tesseract-ocr-deu libjsoncpp-dev libopencv-dev opencv-data
 # cmake ./
 # make
 # ./example "/path/to/your/receipt/image.jpg"
@@ -33,5 +33,5 @@ dependencies via the package management.
 * Free and OpenSource
 
 ## About
-This Project was started at the FH-Aachen - University of Applied Sciences, in line with the computer vision lecture of
-Prof. Scholl in 2016/2017.
+This Project was started at the FH-Aachen - University of Applied Sciences, in line with the image processing lecture
+held by Prof. Scholl in 2016/2017.
